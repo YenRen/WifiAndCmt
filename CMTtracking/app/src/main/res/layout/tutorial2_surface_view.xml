@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tutorial2_surface_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="org.opencv.samples.tutorial2.Tutorial2Activity">
+
+    <org.opencv.samples.tutorial2.Tutorial3View
+        android:id="@+id/tutorial2_activity_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone"-->
+        <!--android:id="@+id/OpencvShowView" />-->
+
+    <org.opencv.samples.tutorial2.FaceView
+        android:id="@+id/face_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/upButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="upOnClick"-->
+            <!--android:enabled="false"-->
+            <!--android:text="上" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/downButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="downOnClick"-->
+            <!--android:enabled="false"-->
+            <!--android:text="下" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/leftButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="leftOnClick"-->
+            <!--android:enabled="false"-->
+            <!--android:text="左" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/rightButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="rightOnClick"-->
+            <!--android:enabled="false"-->
+            <!--android:text="右" />-->
+    <!--</LinearLayout>-->
+</RelativeLayout>
